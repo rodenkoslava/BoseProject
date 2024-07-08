@@ -1,0 +1,32 @@
+@font-face {
+    font-family: GilroyRegular;
+    src: url(../fonts/gilroy-regular.ttf);
+}
+
+@font-face {
+    font-family: GilroySemibold;
+    src: url(../fonts/gilroy-semibold.ttf);
+}
+
+@font-face {
+    font-family: RobotoCondensed;
+    src: url(../fonts/RobotoCondensed-Regular.ttf);
+}
+
+@font-face {
+    font-family: Roboto;
+    src: url(../fonts/Roboto-Regular.ttf);
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
