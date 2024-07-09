@@ -1,0 +1,26 @@
+@media (max-width: 1440px) {
+    .hamburger {
+        display: block;
+    }
+
+    .menu__list {
+        display: none;
+        flex-direction: column;
+        width: 100%;
+        background-color: black;
+        position: fixed;
+        top: 0;
+        left: 0;
+        height: 100vh;
+        overflow-y: auto;
+    }
+
+    .menu__item {
+        margin: 10px 0;
+        text-align: center;
+    }
+
+    .menu__list.active {
+        display: flex;
+    }
+}

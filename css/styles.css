@@ -1,21 +1,22 @@
 @font-face {
     font-family: GilroyRegular;
-    src: url(../fonts/gilroy-regular.ttf);
+    src: url(/fonts/gilroy-regular.ttf);
+
 }
 
 @font-face {
     font-family: GilroySemibold;
-    src: url(../fonts/gilroy-semibold.ttf);
+    src: url(/fonts/gilroy-semibold.ttf);
 }
 
 @font-face {
     font-family: RobotoCondensed;
-    src: url(../fonts/RobotoCondensed-Regular.ttf);
+    src: url(/fonts/RobotoCondensed-Regular.ttf);
 }
 
 @font-face {
     font-family: Roboto;
-    src: url(../fonts/Roboto-Regular.ttf);
+    src: url(/fonts/Roboto-Regular.ttf);
 }
 
 .visually-hidden {
