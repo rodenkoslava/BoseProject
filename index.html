@@ -15,23 +15,35 @@
       <div class="container">
         <div class="logo">
           <svg class="logo__icon" width="100" height="12">
-            <use href="/images/icons.svg#icon-bose-logo-2"></use>
+            <use
+              class="icon-bose-logo-2"
+              href="/images/icons.svg#icon-bose-logo-2"
+            ></use>
           </svg>
         </div>
         <nav class="menu">
           <div class="hamburger" id="hamburger">
-            <svg class="hamburger__icon" width="22" height="12">
-              <use href="/images/icons.svg#icon-hamburger"></use>
-            </svg>
+            <button type="button" class="btnMenu" id="hamburger">
+              <svg class="hamburger__icon" width="22" height="12">
+                <use
+                  class="hamburger__icon__svg"
+                  href="/images/icons.svg#icon-hamburger"
+                ></use>
+              </svg>
+            </button>
           </div>
           <ul class="menu__list" id="menu__list">
             <div class="menu__hamburger__icon">
               <svg class="logo__icon" width="100" height="12">
                 <use href="/images/icons.svg#icon-bose-logo-2"></use>
               </svg>
-              <svg class="logo__icon" width="24" height="24" id="closeMenu">
-                <use href="/images/icons.svg#icon-close-large"></use>
-              </svg>
+              <div class="menu__btn__close">
+                <button type="button" class="btnClose" id="closeMenu">
+                  <svg class="logo__icon" width="24" height="24">
+                    <use href="/images/icons.svg#icon-close-large"></use>
+                  </svg>
+                </button>
+              </div>
             </div>
             <li class="menu__item">
               <a class="menu__link" href="#">Characteristics</a>
@@ -48,6 +60,13 @@
           </ul>
         </nav>
       </div>
+      <section class="hero">
+        <h3 class="hero__title">
+          Noise cancellation headphones that are capable for a lot of things
+        </h3>
+        <h3 class="hero__title__2">Up to 20 hours of playback</h3>
+        <h1 class="hero__title__hero">HEADPHONES BOSE NC 700</h1>
+      </section>
     </header>
     <script src="/js/main.js"></script>
   </body>

@@ -11,6 +11,7 @@ body {
     margin-top: 28px;
 }
 
+
 .hamburger {
     display: none;
     cursor: pointer;
@@ -38,10 +39,50 @@ body {
 .menu__link {
     color: white;
     text-decoration: none;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.25;
 }
 
 .menu__hamburger__icon {
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+.btnMenu,
+.btnClose {
+    background-color: black;
+    border: none;
+    cursor: pointer;
+}
+
+.hero__title {
+    font-family: GilroyRegular;
+    color: rgba(255, 255, 255, 0.8);
+    padding-top: 32px;
+    font-size: 14px;
+    line-height: 1.25;
+    width: 222px;
+    height: 36px;
+}
+
+.hero__title__2 {
+    font-family: GilroyRegular;
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 14px;
+    line-height: 1.25;
+    width: 94px;
+    height: 36px;
+    padding-top: 16px;
+}
+
+.hero__title__hero {
+    font-family: GilroySemibold;
+    color: rgb(231, 231, 231);
+    font-size: 34px;
+    line-height: 1;
+    width: 234px;
+    height: 68px;
+    padding-top: 32px;
 }
