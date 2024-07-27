@@ -59,7 +59,7 @@ body {
 
 .hero__title {
     font-family: GilroyRegular;
-    color: rgba(255, 255, 255, 0.8);
+    color: white;
     padding-top: 32px;
     font-size: 14px;
     line-height: 1.25;
@@ -69,7 +69,7 @@ body {
 
 .hero__title__2 {
     font-family: GilroyRegular;
-    color: rgba(255, 255, 255, 0.8);
+    color: white;
     font-size: 14px;
     line-height: 1.25;
     width: 94px;
