@@ -92,6 +92,7 @@ body {
     height: 58px;
     margin-top: 32px;
     background-color: #DF3D3A;
+    border: none;
 }
 
 .btn__order__text {
@@ -102,7 +103,6 @@ body {
     width: 54px;
     height: 20px;
     color: #ffffff;
-    border: none;
 }
 
 .hero__img {
